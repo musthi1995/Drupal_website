@@ -19,7 +19,7 @@ variable "subnet_cidr" {
 variable "ami_id" {
   description = "AMI ID for the EC2 instance"
   type        = string
-  default     = "ami-047126e50991d067b"  # Replace with a valid AMI ID in your chosen region
+  default     = "ami-0866a3c8686eaeeba"  # Replace with a valid AMI ID in your chosen region
 }
 
 variable "instance_type" {
