@@ -8,7 +8,7 @@ terraform {
     backend "s3" {
     bucket         	   = "drupal-tfstate"
     key              	 = "state/terraform.tfstate"
-    region         	   = "ap-southeast-1"
+    region         	   = "us-east-1"
     encrypt        	   = true
   }
 }
