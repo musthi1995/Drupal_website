@@ -6,7 +6,7 @@ terraform {
     }
   }
     backend "s3" {
-    bucket         	   = "drupal-tfstate"
+    bucket         	   = "drupal-tfstate001"
     key              	 = "state/terraform.tfstate"
     region         	   = "us-east-1"
     encrypt        	   = true
